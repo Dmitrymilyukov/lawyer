@@ -1,0 +1,36 @@
+.header {
+  background: url("../img/zdanie2.jpg") no-repeat center center;
+  background-size: cover;
+  width: 1920px;
+  height: 800px;
+  color: white;
+}
+.header-content {
+  text-align: left;
+  margin-left: 20px;
+}
+.header-h1 {
+  background-color: black;
+  display: inline-block;
+  padding: 5px 5px;
+  color: #ffd392;
+  font-size: 14px;
+  margin-top: 80px;
+}
+.header-h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.header-p {
+  font-size: 20px;
+  max-width: 600px;
+}
+.header-button {
+  background-color: #ffd392;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  background-color: #f0f0f0;
+  width: 1920px;
+  padding: 10px 0;
+}
+
+.rectangl {
+  width: 1371px;
+  height: 3px;
+  background-color: #ffd392;
+  margin-bottom: 15px;
+}
+
+.instrucia {
+  width: 1371px;
+  margin-left: 275px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: -600px;
+  min-height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 700px;
+}
+
+.header {
+  background: url("../img/zdanie2.jpg") no-repeat center center;
+  background-size: cover;
+  width: 1920px;
+  height: 800px;
+  color: white;
+}
+.header-content {
+  text-align: left;
+  margin-left: 20px;
+}
+.header-h1 {
+  background-color: black;
+  display: inline-block;
+  padding: 5px 5px;
+  color: #ffd392;
+  font-size: 14px;
+  margin-top: 80px;
+}
+.header-h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.header-p {
+  font-size: 20px;
+  max-width: 600px;
+}
+.header-button {
+  background-color: #ffd392;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.spec {
+  width: 1920px;
+}
+.spec_img {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  justify-items: stretch;
+  width: 1370px;
+  margin: 100px auto;
+}
+.spec_imet {
+  width: 500px;
+  height: 430px;
+  padding: 10px;
+  margin: 10px;
+}
+.spec_h2 {
+  background-color: #000;
+  color: #ffd392;
+  padding: 5px;
+  width: 80px;
+  font-size: 18px;
+  margin: 2px;
+}
+.spec_h3 {
+  color: #3b3b3b;
+  font-size: 50px;
+  margin: 0;
+}
+.spec_p {
+  font-size: 20px;
+  color: #494949;
+}
+.zapis {
+  width: 1371px;
+  height: 96px;
+  grid-column-start: span 3;
+  background-color: #e6e3e3;
+  margin-top: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.card-item {
+  text-align: center;
+  background-color: #ffd392;
+}
+
+.card-h3 {
+  margin-top: 10px;
+}
+
+.card-p {
+  margin: 10px;
+}
+
+.container_service {
+  background: url("../img/specw.png") no-repeat center center;
+  background-size: cover;
+  height: 900px;
+  width: 1920px;
+  text-align: center;
+}
+.container_service-h1 {
+  font-size: 30px;
+}
+
+.services {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 160px;
+}
+
+.service {
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.all-services {
+  margin-top: 80px;
+  background-color: #000;
+  color: #ffd392;
+  font-size: 25px;
+  border: none;
+}
+
+.history {
+  width: 1920px;
+  height: 500px;
+}
+.history-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  justify-items: stretch;
+  width: 1370px;
+  margin: 50px auto;
+}
+.history-img {
+  grid-row: 1/5;
+}
+.history-h2 {
+  background-color: #000;
+  color: #ffd392;
+  font-size: 50px;
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  margin: 0;
+}
+.history-h3 {
+  font-size: 60px;
+  margin: 0;
+}
+.history-p {
+  font-size: 25px;
+}
+.history-button {
+  background-color: #000;
+  color: #ffd392;
+}
+
+.we {
+  background-color: #d8d8d8;
+}
+.we-h2 {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #000000;
+  color: #ffd392;
+  text-align: center;
+  margin: 20px auto;
+}
+.we-h3 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin: 50px auto;
+}
+.we-container {
+  display: flex;
+  align-items: center;
+  width: 1370px;
+  height: 700px;
+  margin: 50px auto;
+  gap: 30px;
+}
+.we-item {
+  background-color: #ffd392;
+  text-align: center;
+}
+.we-item-img {
+  width: 300px;
+  height: 350px;
+}
+.we-item-h2 {
+  color: #fff;
+  font-size: 40px;
+}
+.we-item-p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.footer {
+  width: 1920px;
+  height: 200px;
+  background-color: #000;
+}
+.footer-h2 {
+  font-size: 20px;
+  background-color: #ffd392;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}
+.footer-h3 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin: 20 auto;
+}
+.footer-button {
+  font-size: 20px;
+  background-color: #ffd392;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  margin: 0 910px;
+}
+.footer-flex {
+  display: flex;
+  color: #fff;
+  gap: 40px;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
